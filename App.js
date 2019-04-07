@@ -1,11 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import params from './src/params'
+
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+        <Text style={styles.welcome}>Iniciando o Mines!</Text>
+        <Text style={styles.instructions}>Tamanho da grade: {params.getRowsAmount()}x{params.getColumnsAmount()}</Text>
       </View>
     );
   }
@@ -18,4 +21,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  welcome: {
+    fontSize: 30,
+    textAlign: 'center',
+  },
+  instructions: {
+    fontSize: 15,
+    textAlign: 'center'
+  }
 });
