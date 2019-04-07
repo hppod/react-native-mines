@@ -12,6 +12,11 @@ export default class App extends React.Component {
         <Text style={styles.instructions}>Tamanho da grade: {params.getRowsAmount()}x{params.getColumnsAmount()}</Text>
 
         <Field />
+        <Field opened />
+        <Field opened nearMines={1} />
+        <Field opened nearMines={2} />
+        <Field opened nearMines={5} />
+        <Field opened nearMines={8} />
       </View>
     );
   }
