@@ -35,3 +35,5 @@ const createMinedBoard = (rows, columns, minesAmount) => {
     spreadMines(board, minesAmount)
     return board
 }
+
+export { createMinedBoard }
