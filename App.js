@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Alert } from 'react-native';
 
 import params from './src/params'
 import MineField from './src/components/MineField'
-import { createMinedBoard, cloneBoard, openField, hadExplosion, wonGame, showMines, invertFlag } from './src/functions'
+import { createMinedBoard, cloneBoard, openField, hadExplosion, wonGame, showMines, invertFlag, flagsUsed } from './src/functions'
 
 export default class App extends React.Component {
 
