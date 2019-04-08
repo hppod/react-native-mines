@@ -28,9 +28,9 @@ export default props => {
         } else if (nearMines == 2) {
             color = '#2B520F'
         } else if (nearMines > 2 && nearMines < 6) {
-            color = '#F9060A'
+            color = '#AF1F00'
         } else {
-            color = '#F221A9'
+            color = '#AF008F'
         }
     }
 

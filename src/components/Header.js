@@ -42,12 +42,12 @@ const styles = StyleSheet.create({
         marginLeft: 20,
     },
     button: {
-        backgroundColor: '#999',
+        backgroundColor: '#00AF94',
         padding: 5,
     },
     buttonLabel: {
         fontSize: 20,
-        color: '#DDD',
+        color: '#0401BF',
         fontWeight: 'bold'
     }
 })
