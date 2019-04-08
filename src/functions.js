@@ -106,4 +106,11 @@ const showMines = board => {
         .forEach(field => field.opened = true)
 }
 
-export { createMinedBoard }
+export {
+    createMinedBoard,
+    cloneBoard,
+    openField,
+    hadExplosion,
+    wonGame,
+    showMines
+}
